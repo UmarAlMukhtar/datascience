@@ -25,7 +25,7 @@ print("Missing Values in the Dataset:")
 print(df.isnull().sum())
 
 # Drop rows with missing values (if any)
-df = df.dropna()
+# df = df.dropna()
 
 # Encode Categorical Data
 le = LabelEncoder()
